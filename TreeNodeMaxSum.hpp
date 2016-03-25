@@ -62,12 +62,12 @@ public:
 };
 
 void test(){
-    TreeNode* root= new TreeNode(-9);
+    TreeNode* root= new TreeNode(-2);
     TreeNode* n11 = new TreeNode(2);
     TreeNode* n12 = new TreeNode(1);
     TreeNode* n21 = new TreeNode(3);
-    TreeNode* n22 = new TreeNode(3);
-    TreeNode* n23 = new TreeNode(3);
+    TreeNode* n22 = new TreeNode(2);
+    TreeNode* n23 = new TreeNode(1);
     TreeNode* n24 = new TreeNode(1);
     
     root->left = n11;
@@ -83,8 +83,8 @@ void test(){
 
 }
 
-//       -9
+//       -2
 //     2      1
-//   3   3  1   1
+//   3   2  1   1
 
 #endif /* TreeNode_hpp */
